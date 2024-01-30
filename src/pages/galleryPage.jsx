@@ -240,7 +240,7 @@ export default function MasonryImageList() {
         justifyContent="center"
         alignItems="center"
         minHeight="100vh">
-           <ColorButton variant="contained" onClick={handleOpen}>Custom CSS</ColorButton>
+           <ColorButton variant="contained" onClick={handleOpen}>Click Me!</ColorButton>
            <Modal
         open={open}
         onClose={handleClose}
